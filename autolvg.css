@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+main {
+  margin: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+form label,
+form input[type="submit"] {
+  display: block;
+  margin-bottom: 1em;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="time"] {
+  padding: 0.5em;
+}
